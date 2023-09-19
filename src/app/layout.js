@@ -21,13 +21,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        {/* <meta name="application-name" content="PWA App" />
+        <meta name="application-name" content="PWA App" />
         <meta name="apple-mobile-web-app-title" content="PWA App" />
         <meta name="description" content="Best PWA App in the world" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="theme-color" content="#000000" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="shortcut icon" href="/favicon.ico" /> */}
+        <link rel="shortcut icon" href="/favicon.ico" />
 
       <body className={inter.className}>{children}</body>
     </html>
